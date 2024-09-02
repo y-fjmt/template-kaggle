@@ -1,0 +1,12 @@
+{
+	"name": "kaggle",
+	"image": "gcr.io/kaggle-images/python:latest",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"donjayamanne.python-extension-pack",
+				"ms-toolsai.jupyter"
+			]
+		}
+	}
+}

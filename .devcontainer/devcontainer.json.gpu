@@ -1,0 +1,13 @@
+{
+	"name": "kaggle",
+	"image": "gcr.io/kaggle-gpu-images/python:latest",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"donjayamanne.python-extension-pack",
+				"ms-toolsai.jupyter"
+			]
+		}
+	},
+	"runArgs": [ "--gpus", "all"]
+}
