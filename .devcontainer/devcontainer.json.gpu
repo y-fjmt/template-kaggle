@@ -9,5 +9,5 @@
 			]
 		}
 	},
-	"runArgs": [ "--gpus", "all"]
+	"runArgs": ["--gpus", "all", "--shm-size=16gb"]
 }

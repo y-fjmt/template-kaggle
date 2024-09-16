@@ -8,5 +8,6 @@
 				"ms-toolsai.jupyter"
 			]
 		}
-	}
+	},
+	"runArgs": ["--shm-size=16gb"]
 }
