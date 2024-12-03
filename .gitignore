@@ -166,3 +166,5 @@ cython_debug/
 
 # API key
 .config/*
+
+kaggle
