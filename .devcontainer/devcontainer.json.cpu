@@ -9,5 +9,9 @@
 			]
 		}
 	},
+	"mounts": [
+		"source=${localWorkspaceFolder}/kaggle,target=/kaggle,type=bind",
+		"source=${localWorkspaceFolder}/.config,target=/root/.config/kaggle,type=bind"
+	],
 	"runArgs": ["--shm-size=16gb"]
 }
